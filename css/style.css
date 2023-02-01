@@ -1,0 +1,821 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+body {
+   font-family: 'Adamina', serif;
+/* font-family: 'Londrina Shadow', cursive; */
+ font-family: 'Montserrat', sans-serif; 
+/* font-family: 'Prata', serif; */
+font-weight: 500px;;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header img {
+  height:800px;
+ width: 100%;
+}
+header h1 {
+  margin-top: -31%;
+  font-size:100px;
+  text-align:center;
+  color:white;
+}
+section{
+  background-color:rgb(47,79,79);
+  height:800px;
+  padding-bottom: 10%;
+}
+.lux{
+  padding-top: 28%;
+}
+.lux h2{
+ color:white;
+ font-size: 30px;
+ padding-left: 68%;
+
+}
+.lux p{
+  color:white;
+  padding-left: 68%;
+  font-size: 18px;
+
+}
+.lux-image {
+  padding-left: 12%;
+  margin-top: -19%;
+}
+.lux img {
+  height: 300px;
+  width: 550px;
+}
+.opening-day img {
+  height:450px;
+  width:100%;
+}
+.opening-day h3{
+     margin-top: -19%;
+     color:white;
+     text-align:center;
+     font-size: 50px;
+}
+.opening-day p{
+  color:white;
+  text-align:center;
+  font-size: 40px;
+  margin-top: -3.5%;
+}
+.dream{
+  padding-top: 21%;
+  padding-left: 17%;
+}
+.dream h3 {
+  font-size: 30px;
+}
+.dream p {
+  font-size: 18px;
+  margin-top: -14px;
+}
+.dream-image{
+  float: right;
+}
+.dream img{
+  width: 720px;
+  height: 600px;
+  margin-top: -59%;
+
+}
+.bar{
+   padding-top: 22%; 
+  /* margin-left: 66%; */
+}
+.bar h4 {
+ font-size: 30px;
+ /* float:right; */
+ padding-left: 65.7%;
+
+}
+.bar p {
+  font-size: 18px;
+  padding-left: 66%;
+  margin-top: -22px;
+  /* float:right; */
+  /* padding-top:6%; */
+ }
+ .bar-image {
+     margin-top: -27.6%; 
+ }
+.bar img{
+  width: 720px;
+  height: 600px;
+  /* margin-top: -18.3%; */
+}
+.love{
+padding-left: 17%;
+padding-top: 10%;
+}
+.love h5{
+  font-size: 30px;
+}
+.love p{
+  font-size: 18px;
+  margin-top: -32px;
+  
+}
+.love-image{
+  padding-left: 39.6%;
+  margin-top: -34.7%;
+
+}
+.love img{
+  width: 722px;
+  height: 600px;
+}
+.social {
+  margin-top: -121px;
+  background-color: rgb(169,169,169);
+  height: 350px;
+  width:100%;
+
+}
+.social h6 {
+  font-size: 50px;
+  text-align:right;
+  color:white;
+  text-align:center;
+  /* margin-right: 16%; */
+  padding-top: 8%;
+
+}
+.icons {
+  font-size: 30px;
+  padding-left: 42%;
+  margin-top: -90px;
+
+}
+a .fa-pinterest-p{
+    padding-left: 25px;
+    color:white;
+}
+a .fa-instagram{
+    padding-left: 25px;
+    color:white;
+}
+a .fa-facebook-f{
+  padding-left: 25px;
+  color:white;
+}
+a .fa-twitter{
+  padding-left: 25px;
+  color:white;
+}
+footer img{
+  height: 750px;
+  width:100%;
+}
+footer h1 {
+  font-size: 60px;
+  color:white;
+  margin-top: -41%;
+  padding-left: 4%;
+}
+.copyright {
+   padding-top: 21%;
+
+}
+.copyright p {
+  text-align: center;
+   /* padding-top:2%;  */
+  color:white;
+}
+.location{
+  margin-top: -7%;
+  padding-left: 85.5%;
+}
+.location p {
+  color:white;
+}
+
+/* .social img { *
+  height: 350px;
+  width:100%;
+}*/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media (max-width: 940px) {
+  header {
+    width: 128%;
+  }
+  header img {
+    height: 700px;
+  }
+  header h1 {
+    margin-top: -33%;
+  }
+  section {
+  margin-top: 18%;
+  width: 128%;
+  height: 100%;
+  }
+  .lux {
+    padding-top: 24%;
+    padding-bottom: 6%;
+  }
+  .lux-image {
+    margin-top: -22%;
+    margin-left: -3%;
+  }
+  .lux h2 {
+    padding-left: 63%;
+  }
+  .lux p{
+    padding-left: 63%;
+  }
+  .opening-day {
+    width: 128%;
+    margin-top: 0px;
+  }
+  .opening-day h3 {
+    margin-top: -22%;
+  }
+  .dream-image {
+    margin-right: -33.7%;
+    /* padding-top: 2%; */
+    margin-top: -8%;
+  }
+  .dream-image img {
+    width: 600px;
+    height: 600px;
+  }
+  .dream h3 {
+    padding-top: 10%;
+  }
+  .bar {
+    padding-top: 25%;
+  }
+  .bar-image {
+    margin-top: -43.6%;
+}
+  .bar-image img {
+    width: 600px;
+    height: 600px;
+  }
+  .bar h4 {
+    padding-top: 11%;
+  }
+  .bar h4 {
+    margin-left: 15%;
+    width: 100%;
+  }
+  .bar p {
+    margin-left: 15%;
+    width: 104%;
+  }
+  .love img {
+    width: 600px;
+    height: 600px;
+  }
+  .love {
+    padding-top: 15%;
+  }
+  .love-image {
+    padding-left: 56.7%;
+    margin-top: -53%;
+  }
+  .social {
+    width: 128%;
+  }
+  .social h6 {
+    padding-top: 10%;
+  }
+  .copyright {
+    padding-top: 35%;
+    padding-left: 33%;
+}
+  .location{
+    margin-top: -10%;
+  }
+  footer h1 {
+    margin-top: -63%;
+  }
+  footer img{
+    width:128%;
+  }
+  .location p {
+    width: 121%;
+    margin-left: 133%;
+    font-size: 13px;
+  }
+}
+
+
+@media (max-width: 768px) {
+   header img {
+     width: 111.2%;
+   }
+   header h1 {
+    margin-top: -41%;
+    padding-left: 9%;
+  }
+  section {
+    margin-top: 36%;
+    width: 142.3%;
+  }
+  .lux-image {
+    margin-top: -24%;
+    margin-left: -5%;
+}
+  .lux {
+    padding-top: 14%;
+    padding-bottom: 6%;
+}
+.lux h2 {
+  padding-left: 63%;
+  padding-top: 2%;
+}
+.opening-day {
+  margin-top: -1px;
+}
+.opening-day img {
+  width: 111.2%;
+}
+.opening-day h3 {
+  margin-top: -27%;
+  padding-left: 14%;
+}
+.opening-day p {
+  padding-left: 14%;
+}
+.dream {
+  padding-left: 14%;
+}
+.dream h3 {
+  padding-top: 12%;
+}
+.dream-image {
+  margin-right: -49%;
+  /* padding-top: 2%; */
+  margin-top: -9%;
+}
+.dream-image img {
+  width: 551px;
+  height: 550px;
+}
+.bar h4 {
+  margin-left: 19%;
+  width: 103%;
+}
+.bar-image {
+  margin-top: -47.6%;
+}
+.bar-image img {
+  width: 543px;
+  height: 550px;
+}
+.bar p {
+  margin-left: 19%;
+  width: 112%;
+}
+.love {
+  margin-left: -4%;
+}
+.love-image {
+  padding-left: 66.9%;
+  margin-top: -57.5%;
+}
+.love-image img {
+  width: 550px;
+  height: 550px;
+}
+.social {
+  width: 142.8%;
+}
+.social h6 {
+  padding-top: 11%;
+}
+.icons {
+  padding-left: 39%;
+}
+footer h1 {
+  margin-top: -74%;
+  font-size: 53px;
+}
+footer img {
+  width: 142.8%;
+  height: 700px;
+}
+.location {
+  margin-top: -12%;
+}
+.location p {
+  width: 121%;
+  margin-left: 244%;
+}
+.copyright {
+   padding-top: 43%;
+   padding-left: 52%;
+}
+
+@media (max-width: 480px) {
+  header img {
+    width: 145.3%;
+    height: 600px;
+}
+header h1 {
+  font-size: 60px;
+  margin-left: 27%;
+  margin-top: -59%;
+  width: 80%;
+}
+section {
+  margin-top: 60%;
+  width: 186.3%;
+}
+.opening-day {
+  width: 167.5%;
+}
+.opening-day h3 {
+  margin-top: -35%;
+  padding-left: 14%;
+}
+.lux {
+  padding-top: 12%;
+  padding-bottom: 6%;
+}
+.lux h2 {
+  padding-left: 56%;
+  padding-top: 2%;
+}
+.lux p {
+  padding-left: 56%;
+}
+.lux-image {
+  margin-top: -29%;
+  margin-left: -6%;
+}
+.lux img {
+  height: 300px;
+  width: 402px;
+}
+
+.dream-image img {
+  width: 446px;
+  height: 446px;
+}
+.bar-image img {
+  width: 446px;
+  height: 446px;
+}
+.love-image img {
+  width: 446px;
+  height: 446px;
+}
+.social {
+  width: 186.6%;
+}
+.icons {
+  padding-left: 37%;
+}
+footer h1 {
+  margin-top: -107%;
+  font-size: 48px;
+  padding-left: 7%;
+}
+footer img {
+  width: 186.4%;
+  height: 600px;
+}
+.copyright {
+  padding-top: 63%;
+  margin-left: 33%;
+  width: 81%;
+}
+.location {
+  margin-top: -21%;
+}
+.location p {
+  width: 189%;
+  margin-left: 444%;
+}
+.dream {
+  padding-left: 14%;
+  padding-top: 40%;
+}
+.dream p {
+  font-size: 15px;
+  margin-top: -14px;
+}
+.dream-image {
+  margin-right: -100%;
+  /* padding-top: 2%; */
+  margin-top: -20%;
+}
+.bar-image {
+  margin-top: -62.6%;
+}
+.bar h4 {
+  margin-left: 40%;
+  width: 128%;
+}
+.bar p {
+  margin-left: 40%;
+  width: 141%;
+  font-size: 15px;
+}
+.love-image {
+  padding-left: 92.9%;
+  margin-top: -75.5%;
+}
+.love p {
+  font-size: 15px;
+}
+
+
+
+
+@media (max-width: 414px) {
+  header img {
+    width: 157.3%;
+    height: 600px;
+   }
+   header h1 {
+    font-size: 60px;
+    margin-left: 27%;
+    margin-top: -69%;
+    width: 94%;
+  }
+  section {
+    margin-top: 70%;
+    width: 201.3%;
+  }
+  .lux {
+    padding-top: 10%;
+    padding-bottom: 6%;
+}
+  .lux p {
+    font-size: 17px;
+  }
+  .lux-image {
+    margin-top: -29%;
+    margin-left: -6%;
+}
+  .lux img {
+    height: 280px;
+    width: 350px;
+  }
+  .opening-day img {
+    width: 120.2%;
+  }
+  .opening-day h3 {
+    margin-top: -40%;
+    padding-left: 27%;
+  }
+  .opening-day p {
+    padding-left: 30%;
+}
+.dream {
+  padding-left: 14%;
+  padding-top: 37%;
+}
+.dream-image {
+  margin-right: -118%;
+  /* padding-top: 2%; */
+  margin-top: -18%;
+}
+.dream-image img {
+  width: 416px;
+  height: 416px;
+}
+.bar {
+  padding-top: 36%;
+}
+.bar-image {
+  margin-top: -75.6%;
+}
+.bar-image img {
+  width: 416px;
+  height: 416px;
+}
+.bar h4 {
+  margin-left: 47%;
+  width: 133%;
+}
+.bar p {
+  margin-left: 48%;
+  width: 141%;
+  font-size: 15px;
+}
+.love-image {
+  padding-left: 100.9%;
+  margin-top: -84.5%;
+}
+.love-image img {
+  width: 416px;
+  height: 416px;
+}
+  .social {
+    width: 201.4%;
+  }
+  .icons {
+   padding-left: 35%;
+  }
+  footer img {
+    width: 201.3%;
+    height: 500px;
+  }
+  footer h1 {
+    margin-top: -103%;
+    font-size: 40px;
+    padding-left: 8%;
+  }  
+  .copyright {
+    padding-top: 56%;
+    margin-left: 31%;
+    width: 84%;
+  }
+  .location p {
+    width: 215%;
+    margin-left: 490%;
+    /* font-size: 12px; */
+  }
+  @media (max-width: 375px) {
+    
+    header img {
+      width: 166%;
+      height: 550px;
+  }
+  header h1 {
+    font-size: 60px;
+    margin-left: 32%;
+    margin-top: -69%;
+    width: 94%;
+}
+  section {
+    margin-top: 68%;
+    width: 212.5%;
+  }
+  .dream h3 {
+    padding-top: 9%;
+  }
+  .dream {
+    padding-left: 14%;
+    padding-top: 36%;
+}
+  .dream-image {
+    margin-right: -131%;
+    /* padding-top: 2%; */
+    margin-top: -20%;
+  }
+  .dream-image img {
+    width: 400px;
+    height: 400px;
+  }
+  .bar h4 {
+    margin-left: 54%;
+    width: 140%;
+}
+.bar p {
+  margin-left: 55%;
+  width: 145%;
+  font-size: 15px;
+}
+  .bar-image {
+    margin-top: -81.6%;
+}
+  .bar-image img {
+    width: 400px;
+    height: 400px;
+  }
+  .love-image {
+    padding-left: 106.9%;
+    margin-top: -91.5%;
+}
+  .love-image img {
+    width: 400px;
+    height: 400px;
+  }
+  .opening-day img {
+    width: 126.9%;
+  }
+  .lux {
+    padding-top: 11%;
+    padding-bottom: 6%;
+  }
+  .lux-image {
+    margin-top: -31%;
+    margin-left: -6%;
+  }
+  .opening-day h3 {
+    font-size:46px;
+  }
+  .social {
+    width: 212.5%;
+  }
+  footer h1 {
+    margin-top: -114%;
+    font-size: 38px;
+    padding-left: 8%;
+  }
+  footer img {
+    width: 212.4%;
+    height: 500px;
+  }
+  .location {
+    margin-top: -26%;
+}
+  .location p {
+    width: 239%;
+    margin-left: 553%;
+    /* font-size: 12px; */
+    /* margin-top: -31%; */
+}
+  .copyright {
+    padding-top: 64%;
+    margin-left: 31%;
+    width: 85%;
+}
+@media (max-width: 360px) {
+  header img {
+    width: 170%;
+    height: 500px;
+  }
+  header h1 {
+    font-size: 60px;
+    margin-left: 29%;
+    margin-top: -67%;
+    width: 99%;
+  }
+  section {
+    margin-top: 65%;
+    width: 217.5%;
+  }
+  .lux p {
+    font-size: 16px;
+  }
+  .opening-day h3 {
+    font-size: 44px;
+  }
+  .opening-day img {
+    width: 129.9%;
+  }
+  .bar h4 {
+    margin-left: 54%;
+    width: 143%;
+}
+.bar p {
+  margin-left: 55%;
+  width: 147%;
+  font-size: 15px;
+}
+.bar-image {
+  margin-top: -85.6%;
+}
+
+  .bar-image img {
+    width: 390px;
+    height: 390px;
+  }
+  .love-image {
+    padding-left: 109.9%;
+    margin-top: -94.5%;
+}
+  .love-image img {
+    width: 390px;
+    height: 390px;
+  }
+  .dream-image {
+    margin-right: -136%; 
+    margin-top: -23%;
+}
+  .dream-image img {
+    width: 390px;
+    height: 390px;
+  }
+  .social {
+    width: 217.5%;
+}
+  footer img {
+    width: 217.4%;
+    height: 500px;
+  }
+  .location p {
+    width: 248%;
+    margin-left: 553%;
+}
+  .copyright {
+    padding-top: 64%;
+    margin-left: 31%;
+    width: 86%;
+  }
+}
+
